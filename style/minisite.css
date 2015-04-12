@@ -48,8 +48,9 @@ height:0;
 .ban_box .button{ background-image:url(images/button.png); width:256px; height:48px; position:absolute; top:255px; left:80px; }
 .intro{ margin-bottom:20px; }
 .intro img{ display:block; width:100%; }
-.tab{ background-color:#eaf8fd; font-size:16px; color:#212121; padding-bottom:80px; }
+.tab{ background-color:#eaf8fd; font-size:16px; color:#212121; padding-bottom:110px; overflow:hidden;*zoom:1; }
 .tab.active .tab_top{ position:fixed;top: 0; left: 0;right: 0;z-index: 999; overflow:hidden;*zoom:1;}
+.tab.active .body{ margin-top:40px;}
 .tab_top{ height:40px; color:#fff; line-height:40px; background-color:#00b9f2; }
 .tab_top .item{ float:left; width:25%; text-align:center; cursor:pointer; }
 .tab_top .active{ background-color:#009dce; cursor:default; }
