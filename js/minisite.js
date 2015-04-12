@@ -11,6 +11,8 @@ $(function () {
 
     $('.tab_top .item').click(function () {
 
+        $(window).scrollTop(454+983);
+
         $(this).siblings().removeClass('active').end().addClass('active');
         $('.tab .body').hide();
         $($('.tab .body').get($(this).index())).show();
